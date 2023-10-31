@@ -39,8 +39,8 @@
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">About</span></a></li>
 	          <li class="nav-item"><a href="#education-section" class="nav-link"><span style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Education</span></a></li>
 	          <li class="nav-item"><a href="#experience-section" class="nav-link"><span style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Experiences</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Projects</span></a></li>
 	          <li class="nav-item"><a href="#skills-section" class="nav-link"><span style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Skills</span></a></li>
-	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Projects</span></a></li>
 	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Contact</span></a></li>
 	        </ul>
 	      </div>
@@ -155,6 +155,54 @@
         </div>
       </div>
     </section>
+    
+    <section class="ftco-section" id="project-section">
+      <div class="container ">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Projects</h2>
+          </div>
+        </div>
+        <div id="project" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="resume-wrap ftco-animate">
+    					<span class="date">September 2023 - October 2023</span>
+    					<h2>Black Screen Cinema</h2>
+    					<span class="position">Movie Ticketing Booking System</span>
+    					<p class="mt-4" style="text-align: justify;">The Black Screen Cinema (BSC) is a web-based application designed to streamline the process of booking movie tickets.</p>
+							<ul>
+								<li>Front End : JavaServer Pages (JSP), Bootstrap framework, Boxicons, Font Awesome.</li>
+								<li>Database : MySQL Workbench, MySQL Database.</li>
+								<li>Back End : Java Servlet, Stripe Payment Gateway.</li>
+							</ul>
+    				</div>
+            </div>
+            <div class="carousel-item">
+              <div class="resume-wrap ftco-animate">
+    					<span class="date">October 2023 - Now</span>
+    					<h2>Nabil Asyraf</h2>  
+    					<span class="position">My Personal Portfolio Website</span>
+    					<p class="mt-4" style="text-align: justify;">My personal portfolio website is a web-based application designed to give an overview of my career as java developer.</p>
+							<ul>
+								<li>Front End : JavaServer Pages (JSP), Bootstrap framework, Boxicons, Font Awesome.</li>
+								<li>Database : MySQL Workbench, MySQL Database.</li>
+								<li>Back End : Spring boot.</li>
+							</ul>
+    				</div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" type="button" data-bs-target="#project" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" type="button" data-bs-target="#project" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
 
 		
 		<section class="ftco-section" id="skills-section">
@@ -239,7 +287,7 @@
 			</div>
 		</section>
 
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    <section class="ftco-section contact-section " id="contact-section">
       <div class="container ">
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -253,38 +301,44 @@
         <!-- Button trigger modal -->
 
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <p class="modal-title fs-5 font-weight-bold" id="exampleModalLabel">Contact me</p>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form action="#" class="bg-light p-2 p-md-2 contact-form fs-5 " >
-              <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Your Name">
-              </div>
-              <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Your Email">
-              </div>
-              <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Subject">
-              </div>
-              <div class="mb-3">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-              </div>
-              <div class="mb-3">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-              </div>
-            </form>
-      </div>
-    </div>
-  </div>
-</div>
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1"
+				aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<p class="modal-title fs-5 font-weight-bold"
+								id="exampleModalLabel">Contact me</p>
+							<button type="button" class="btn-close" data-bs-dismiss="modal"
+								aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<form action="#" class="bg-light p-2 p-md-2 contact-form fs-5 ">
+								<div class="mb-3">
+									<input type="text" class="form-control" placeholder="Your Name">
+								</div>
+								<div class="mb-3">
+									<input type="text" class="form-control"
+										placeholder="Your Email">
+								</div>
+								<div class="mb-3">
+									<input type="text" class="form-control" placeholder="Subject">
+								</div>
+								<div class="mb-3">
+									<textarea name="" id="" cols="30" rows="7" class="form-control"
+										placeholder="Message"></textarea>
+								</div>
+								<div class="mb-3">
+									<input type="submit" value="Send Message"
+										class="btn btn-primary py-3 px-5">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
 
-        <div class="row d-flex contact-info mb-5 justify-content-center" >
+			<div class="row d-flex contact-info mb-5 justify-content-center" >
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
