@@ -57,6 +57,7 @@
         </div>
       </div>
     </section>
+    
 
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
     	<div class="container">
@@ -83,7 +84,7 @@
 		        </div>
 	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
               <div class="text">
-                <p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p>
+                <p><a href="/download" class="btn btn-primary py-3 px-3">Download CV</a></p>
               </div>
 	          </div>
 	        </div>
@@ -243,9 +244,45 @@
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h2 class="mb-4">Contact Me</h2>
-            <p><a href="#" class="btn btn-primary py-3 px-3">Contact Me</a></p>
-          </div>
+					<button type="button" class="btn btn-primary py-3 px-3"
+						data-bs-toggle="modal" data-bs-target="#exampleModal">
+						Contact me</button>
+		  </div>
         </div>
+        
+        <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title fs-5 font-weight-bold" id="exampleModalLabel">Contact me</p>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="#" class="bg-light p-2 p-md-2 contact-form fs-5 " >
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="mb-3">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="mb-3">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+      </div>
+    </div>
+  </div>
+</div>
 
         <div class="row d-flex contact-info mb-5 justify-content-center" >
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
