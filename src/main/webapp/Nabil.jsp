@@ -315,17 +315,17 @@
 						<div class="modal-body">
 							<form action="#" class="bg-light p-2 p-md-2 contact-form fs-5 ">
 								<div class="mb-3">
-									<input type="text" class="form-control" placeholder="Your Name">
+									<input type="text" class="form-control" placeholder="Your Name" id="name">
 								</div>
 								<div class="mb-3">
 									<input type="text" class="form-control"
-										placeholder="Your Email">
+										placeholder="Your Email" id="email">
 								</div>
 								<div class="mb-3">
-									<input type="text" class="form-control" placeholder="Subject">
+									<input type="text" class="form-control" placeholder="Subject" id="subject">
 								</div>
 								<div class="mb-3">
-									<textarea name="" id="" cols="30" rows="7" class="form-control"
+									<textarea name="" id="msg" cols="30" rows="7" class="form-control"
 										placeholder="Message"></textarea>
 								</div>
 								<div class="mb-3">
