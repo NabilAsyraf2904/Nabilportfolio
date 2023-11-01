@@ -329,10 +329,6 @@
 										placeholder="Message"></textarea>
 								</div>
 								<div class="mb-3">
-									<textarea name="" id="msg" cols="30" rows="7" class="form-control"
-										placeholder="Message"></textarea>
-								</div>
-								<div class="mb-3">
 									<input type="submit" value="Send Message"
 										class="btn btn-primary py-3 px-5">
 								</div>

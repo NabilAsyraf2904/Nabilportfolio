@@ -10,6 +10,7 @@ public class NabilasyrafApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(NabilasyrafApplication.class, args);
+
 	}
 
 
