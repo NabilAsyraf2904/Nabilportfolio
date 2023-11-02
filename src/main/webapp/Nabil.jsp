@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -170,6 +171,10 @@
     					<span class="date">September 2023 - October 2023</span>
     					<h2>Black Screen Cinema</h2>
     					<span class="position">Movie Ticketing Booking System</span>
+    					<a href="https://github.com/NabilAsyraf2904/BSC-Workspace.git" target="_blank"
+    					class="btn btn-link text-black btn-md fs-md rounded d-none d-lg-inline-flex ms-1 rounded-pill">
+							<i class='bx bxl-github'></i>
+						</a>
     					<p class="mt-4" style="text-align: justify;">The Black Screen Cinema (BSC) is a web-based application designed to streamline the process of booking movie tickets.</p>
 							<ul>
 								<li>Front End : JavaServer Pages (JSP), Bootstrap framework, Boxicons, Font Awesome.</li>
@@ -182,7 +187,11 @@
               <div class="resume-wrap ftco-animate">
     					<span class="date">October 2023 - Now</span>
     					<h2>Nabil Asyraf</h2>  
-    					<span class="position">My Personal Portfolio Website</span>
+    					<span class="position">My Personal Portfolio Website</span> 
+    					<a href="https://github.com/NabilAsyraf2904/Nabilportfolio.git" target="_blank"
+    					class="btn btn-link  btn-sm fs-sm rounded d-none d-lg-inline-flex ms-1 rounded-pill">
+							<i class='bx bxl-github'></i>
+						</a>
     					<p class="mt-4" style="text-align: justify;">My personal portfolio website is a web-based application designed to give an overview of my career as java developer.</p>
 							<ul>
 								<li>Front End : JavaServer Pages (JSP), Bootstrap framework, Boxicons, Font Awesome.</li>
@@ -450,6 +459,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     
   </body>
 </html>
