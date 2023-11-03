@@ -322,24 +322,23 @@
 								aria-label="Close"></button>
 						</div>
 						<div class="modal-body">
-							<form action="#" class="bg-light p-2 p-md-2 contact-form fs-5 ">
+							<form action="/contactMe" method="post" class="bg-light p-2 p-md-2 contact-form fs-5 ">
 								<div class="mb-3">
-									<input type="text" class="form-control" placeholder="Your Name" id="name">
+									<input type="text" class="form-control" placeholder="Your Name" name="name">
 								</div>
 								<div class="mb-3">
-									<input type="text" class="form-control"
-										placeholder="Your Email" id="email">
+									<input type="email" class="form-control"
+										placeholder="Your Email" name="email">
 								</div>
 								<div class="mb-3">
-									<input type="text" class="form-control" placeholder="Subject" id="subject">
+									<input type="text" class="form-control" placeholder="Subject" name="subject">
 								</div>
 								<div class="mb-3">
-									<textarea name="" id="msg" cols="30" rows="7" class="form-control"
-										placeholder="Message"></textarea>
+									<textarea id="msg" cols="30" rows="7" class="form-control"
+										placeholder="Message" name="msg"></textarea>
 								</div>
 								<div class="mb-3">
-									<input type="submit" value="Send Message"
-										class="btn btn-primary py-3 px-5">
+									 <input type="submit" class="readmore d-block w-100" value="Send Message">
 								</div>
 							</form>
 						</div>
