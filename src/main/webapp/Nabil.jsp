@@ -301,9 +301,9 @@
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h2 class="mb-4">Contact Me</h2>
-					<button type="button" class="btn btn-primary py-3 px-3"
+					<!-- <button type="button" class="btn btn-primary py-3 px-3"
 						data-bs-toggle="modal" data-bs-target="#exampleModal">
-						Contact me</button>
+						Contact me</button> -->
 		  </div>
         </div>
         
@@ -311,7 +311,7 @@
 
 
 			<!-- Modal -->
-			<div class="modal fade" id="exampleModal" tabindex="-1"
+			<!-- <div class="modal fade" id="exampleModal" tabindex="-1"
 				aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
 					<div class="modal-content">
@@ -344,7 +344,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 			<div class="row d-flex contact-info mb-5 justify-content-center" >
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
